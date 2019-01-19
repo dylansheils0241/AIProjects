@@ -1,6 +1,7 @@
 import random
 
-f = open("XORdata.txt", "w+")
+outFileName="C:\\Users\\Administrator\\Desktop\\AIProject\\XORdata.txt"
+f=open(outFileName, "w+")
 
 for i in range(1000):
     a = (random.randint(1, 100))
